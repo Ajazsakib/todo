@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: space-between;
+}
+.App .add-task-field {
+  display: flex;
+  flex: 0 0 30%;
+  max-height: 30vh;
+}
+.App .data-table {
+  flex: 0 0 60%;
+}
